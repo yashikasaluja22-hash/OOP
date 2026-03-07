@@ -26,7 +26,7 @@ class Account{
     }
 };
 int main (){
-//account.balance = 1000;  // ❌ ERROR
+//acc.balance = 1000;  // ❌ ERROR
 // can't access directly as above;
 /*👉 You must use public functions.
 
