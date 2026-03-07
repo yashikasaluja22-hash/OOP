@@ -4,7 +4,7 @@ using namespace std;
 
 A constructor is a special function that:
 Has same name as class
-Runs automatically when object is created
+Runs automatically when object is created --> only for default constructor
 Used to initialize data members*/
 class Student{
     private:
