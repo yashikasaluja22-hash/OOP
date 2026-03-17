@@ -16,6 +16,9 @@ class Animal{
 class Dog : public Animal
 {
     public:
+    void getweight(int a){
+        weight = a;
+    }
     void show(){
         cout << age << endl; //allowed
         cout << weight << endl; //allowed
@@ -24,6 +27,8 @@ class Dog : public Animal
 };
 int main(){
 Dog d;
+d.getweight(55);//this is how u use inherited protected specifier in child class
 d.age = 5;
+//not allowed to do this --> d.weight = 10;
 d.show();
 }
