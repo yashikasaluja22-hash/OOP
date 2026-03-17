@@ -17,6 +17,7 @@ class Dog : public Animal
 int main(){
 Dog d;
 d.sound();
+d.Animal::sound(); //how to call parent function in this overiding case
 return 0;
 }
 //Dog ne parent function override kar diya.
